@@ -28,7 +28,8 @@ $(() => {
         '.fancybox-nav',
         '.fancybox-item',
         '.ea-button.primary',
-        '.upcoming a'
+        '.upcoming a',
+        '[target="_blank"]'
     ];
 
     $('body').on('click', 'a:not(' + excluded.join(',') + ')', function(e) {
