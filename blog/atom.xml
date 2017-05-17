@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://easyappointments.org/"/>
-  <updated>2017-05-17T08:14:44.618Z</updated>
+  <updated>2017-05-17T08:17:59.011Z</updated>
   <id>http://easyappointments.org/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://easyappointments.org/2017/05/17/Android-Client-in-the-Works-Call-for-Contributors/"/>
     <id>http://easyappointments.org/2017/05/17/Android-Client-in-the-Works-Call-for-Contributors/</id>
     <published>2017-05-17T07:33:05.000Z</published>
-    <updated>2017-05-17T08:14:44.618Z</updated>
+    <updated>2017-05-17T08:17:59.011Z</updated>
     
     <content type="html"><![CDATA[<p><img src="android-client.png" alt=""></p>
 <p>With the release of Easy!Appointments v1.2 a flexible REST API became available for the clients. Developers can now create rich content clients and modify that can manage any aspect of the application. </p>

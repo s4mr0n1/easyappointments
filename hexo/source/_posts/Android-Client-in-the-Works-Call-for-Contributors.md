@@ -11,6 +11,7 @@ tags:
   - github
   - collaborate
 date: 2017-05-17 09:33:5
+share_cover: /blog/2017/05/17/Android-Client-in-the-Works-Call-for-Contributors/android-client.png
 ---
 
 ![](android-client.png)
