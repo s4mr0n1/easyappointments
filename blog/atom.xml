@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://easyappointments.org/"/>
-  <updated>2017-05-17T08:17:59.011Z</updated>
+  <updated>2017-05-21T09:16:28.470Z</updated>
   <id>http://easyappointments.org/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Easy!Appointments v1.2.1 is now available for download!</title>
+    <link href="http://easyappointments.org/2017/05/21/Easy-Appointments-v1-2-1-is-now-available-for-download/"/>
+    <id>http://easyappointments.org/2017/05/21/Easy-Appointments-v1-2-1-is-now-available-for-download/</id>
+    <published>2017-05-21T09:04:04.000Z</published>
+    <updated>2017-05-21T09:16:28.470Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a revision release and fixes compatibility issues with PHP 7.1, corrects session handling issues with servers that do not have the required sessions configurations and includes updates for third party libraries used by the app. </p>
+<p><strong>Important Notice: With the update of CodeIgniter to v3.1.4 the minimum requirement for PHP is v5.6 so make sure that your server is up to date before updating your installation.</strong> </p>
+<p>The reason of this minimum requirements change is that PHP releases prior to v5.6 are not supported any more and may lead to severe security vulnerabilities. </p>
+<h2 id="Important-Links"><a href="#Important-Links" class="headerlink" title="Important Links"></a>Important Links</h2><p><a href="https://github.com/alextselegidis/easyappointments/releases/download/1.2.1/easyappointments_1.2.1.zip" target="_blank" rel="external">Download Easy!Appointments v1.2.1</a></p>
+<p><a href="http://php.net/supported-versions.php" target="_blank" rel="external">Read the support lifecycle of PHP releases.</a></p>
+<p><a href="http://easyappointments.org/docs.html#1.2.1/update-guide.md">Follow the update steps of the documentation page.</a> </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a revision release and fixes compatibility issues with PHP 7.1, corrects session handling issues with servers that do not have th
+    
+    </summary>
+    
+      <category term="Announcements" scheme="http://easyappointments.org/categories/Announcements/"/>
+    
+    
+      <category term="Release" scheme="http://easyappointments.org/tags/Release/"/>
+    
+      <category term="Revision" scheme="http://easyappointments.org/tags/Revision/"/>
+    
+  </entry>
   
   <entry>
     <title>Android Client in the Works - Call for Contributors</title>
@@ -97,9 +127,9 @@
     
       <category term="Release" scheme="http://easyappointments.org/tags/Release/"/>
     
-      <category term="Features" scheme="http://easyappointments.org/tags/Features/"/>
-    
       <category term="Stable Version" scheme="http://easyappointments.org/tags/Stable-Version/"/>
+    
+      <category term="Features" scheme="http://easyappointments.org/tags/Features/"/>
     
   </entry>
   
@@ -191,9 +221,9 @@
     
       <category term="Release" scheme="http://easyappointments.org/tags/Release/"/>
     
-      <category term="Alpha Version" scheme="http://easyappointments.org/tags/Alpha-Version/"/>
-    
       <category term="Features" scheme="http://easyappointments.org/tags/Features/"/>
+    
+      <category term="Alpha Version" scheme="http://easyappointments.org/tags/Alpha-Version/"/>
     
   </entry>
   
