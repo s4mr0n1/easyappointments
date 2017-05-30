@@ -24,7 +24,7 @@ Some days ago we [announced the creation of a new Android client](/blog/2017/05/
 <div style="float:left; width:45%; padding:10px; margin-bottom:30px"> 
     ![](easyappointments-android-client-02.png)
     
-    *Data handling is pretty straight forward.*
+    *Data handling is pretty straightforward.*
 </div>
 
 <div style="width:45%; padding: 10px;">
