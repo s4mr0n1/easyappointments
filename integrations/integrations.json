@@ -1,0 +1,27 @@
+{
+  "easyappointments": [
+    {
+      "current": true,
+      "title": "Easy!Appointments v1.2.1",
+      "description": "Open Source Appointment Scheduler",
+      "version": "1.2.1",
+      "url": "https://github.com/alextselegidis/easyappointments/releases/download/1.2.1/easyappointments_1.2.1.zip"
+    }
+  ],
+  "wordpress": [
+    {
+      "current": false,
+      "title": "Easy!Appointments WordPress Plugin v1.0.0",
+      "description": "Integrate Easy!Appointments into WordPress",
+      "version": "1.0.0",
+      "url": "http://easyappointments.org/easyappointments-wp-1.0.0.zip"
+    },
+    {
+      "current": true,
+      "title": "Easy!Appointments WordPress Plugin v1.0.0",
+      "description": "Integrate Easy!Appointments into WordPress",
+      "version": "1.1.0",
+      "url": "http://easyappointments.org/easyappointments-wp-1.1.0.zip"
+    }
+  ]
+}
