@@ -162,19 +162,24 @@
          */
         $('#delete-service').click(function() {
             var serviceId = $('#service-id').val();
-            var messageBtns = {};
-
-            messageBtns[EALang['delete']] = function() {
-                instance.delete(serviceId);
-                $('#message_box').dialog('close');
-            };
-
-            messageBtns[EALang['cancel']] = function() {
-                $('#message_box').dialog('close');
-            };
+            var buttons = [
+                {
+                    text: EALang['delete'],
+                    click: function() {
+                        instance.delete(serviceId);
+                        $('#message_box').dialog('close');
+                    }
+                },
+                {
+                    text: EALang['cancel'],
+                    click:  function() {
+                        $('#message_box').dialog('close');
+                    }
+                }
+            ];
 
             GeneralFunctions.displayMessageBox(EALang['delete_service'],
-                    EALang['delete_record_prompt'], messageBtns);
+                    EALang['delete_record_prompt'], buttons);
         });
     };
 
@@ -370,7 +375,7 @@
         $('#filter-services .selected').removeClass('selected');
 
         $('#filter-services .service-row').each(function() {
-            if ($(this).attr('data-id') === id) {
+            if ($(this).attr('data-id') == id) {
                 $(this).addClass('selected');
                 return false;
             }
@@ -378,7 +383,7 @@
 
         if (display) {
             $.each(this.filterResults, function(index, service) {
-                if (service.id === id) {
+                if (service.id == id) {
                     this.display(service);
                     $('#edit-service, #delete-service').prop('disabled', false);
                     return false;
